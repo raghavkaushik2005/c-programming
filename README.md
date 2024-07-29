@@ -1,2 +1,2 @@
-# c-programming
-I am learning C programming.
+#  basic c-programming
+I am learning basic c programming.
