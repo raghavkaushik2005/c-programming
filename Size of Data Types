@@ -4,9 +4,12 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
+    printf("signed operators \n");
     printf("%lu \n", sizeof(char));
     printf("%lu \n", sizeof(int));
     printf("%lu \n", sizeof(double));
     printf("%lu \n", sizeof(long));
+    printf("unsigned operators");
+    printf("%lu \n", sizeof(argc));
     return 0;
 }
