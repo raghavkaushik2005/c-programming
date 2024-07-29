@@ -1,5 +1,5 @@
 //Basic Operation on variables
-
+//Addition , Subtraction , Multiplication , Division
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
     printf("%d ", a - b );
     printf("%d ", a * b );
     printf("%d ", a / b );
+    printf("%d ", a % b );
     return 0;
 }
