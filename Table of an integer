@@ -1,0 +1,41 @@
+//Table of an ineteger 
+//Take the value like1,2,3... upto 10 and print table.
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+    int a, b, c, d, e, f, g, h, i, j;
+    int x = 10;
+    printf("Table of 10:\n");
+
+    scanf("%d", &a);
+    printf("10 * %d = %d\n", a, x * a);
+
+    scanf("%d", &b);
+    printf("10 * %d = %d\n", b, x * b);
+
+    scanf("%d", &c);
+    printf("10 * %d = %d\n", c, x * c);
+
+    scanf("%d", &d);
+    printf("10 * %d = %d\n", d, x * d);
+
+    scanf("%d", &e);
+    printf("10 * %d = %d\n", e, x * e);
+
+    scanf("%d", &f);
+    printf("10 * %d = %d\n", f, x * f);
+
+    scanf("%d", &g);
+    printf("10 * %d = %d\n", g, x * g);
+
+    scanf("%d", &h);
+    printf("10 * %d = %d\n", h, x * h);
+
+    scanf("%d", &i);
+    printf("10 * %d = %d\n", i, x * i);
+
+    scanf("%d", &j);
+    printf("10 * %d = %d", j, x * j);
+
+    return 0;
+}
