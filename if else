@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+    int num1, num2, gift;
+    printf("Enter marks of math and sci[Note:Both the numbers are out of 50]\n");
+    scanf("%d %d", &num1, &num2);
+    printf("Marks of math-%d\nMarks of sci-%d\n", num1, num2);
+    printf("%d\n", gift = num1 + num2);
+
+    if (gift >= 80)
+    {
+        printf("Congrats! Pass in both. Reward of INR 60");
+    }
+    else if (45 <= gift && gift < 80)
+    {
+        printf("Pass in both. Reward of INR 35");
+    }
+    else if (30 <= gift && gift < 45)
+    {
+        printf("Pass in one subject. Reward of INR 20");
+    }
+    else if (0 <= gift && gift < 30)
+    {
+        printf("Fail in both subject. No reward");
+    }
+    else
+    {
+        printf("Error!");
+    }
+
+    // Rewrite from here problem is occuring from else if to last before return 0;
+    return 0;
+}
