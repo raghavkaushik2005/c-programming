@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int age;
+    printf("Enter your age: ");
+    scanf("%d",&age);
+    switch (age)
+    {
+    case 3:
+        printf("the age is 3");
+
+    case 23:
+        printf("the age is 23");
+        break;
+    case 33:
+        printf("the age is 33");
+        //break;
+    default:
+        printf("The age is not 3,13,23");
+        break;
+    }
+    return 0;
+}
